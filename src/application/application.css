@@ -1,0 +1,130 @@
+* {
+	-fx-primary-color: goldenrod;
+	-fx-secondary-color: black;
+	
+	-fx-focus-color: -fx-secondary-color;
+	
+	-fx-btn-color: black;
+	-fx-btn-hover-color: #222;
+	-fx-focus-color: -fx-secondary-color;
+}
+
+.root {
+	-fx-background-color: -fx-primary-color; 
+}
+
+.menu-bar {
+	-fx-background-color: -fx-primary-color;
+}
+
+.menu {
+	-fx-background-color: -fx-primary-color;
+	-fx-cursor: hand;
+}
+
+.menu-item {
+	-fx-background-color: white;
+	-fx-cursor: hand;
+}
+
+.menu-item .label {
+	-fx-text-fill: black;	
+}
+
+.tab-header-area .tab-header-background {
+	-fx-background-color: transparent;
+}
+
+.tab-pane .tab:selected {
+	-fx-background-color: -fx-secondary-color;
+	-fx-background-insets: 0.0 0.0 0.0 0.0;
+	-fx-background-radius: 0.0 0.0 0.0 0.0;
+}
+
+.tab-pane .tab {
+	-fx-background-color: -fx-primary-color;
+	-fx-cursor: hand;
+}
+
+.tab .tab-label {
+	-fx-text-fill: white;
+	-fx-alignment: center;
+	-fx-font-weight: bold;
+	-fx-padding: 0.0 10.0 0.0 10.0;
+}
+
+.tab-pane {
+	-fx-background-color: transparent;
+}
+
+.label {
+	-fx-text-fill: white;
+}
+
+.button {
+	-fx-background-color: -fx-btn-color;
+	-fx-text-fill: white;
+	-fx-cursor: hand;
+}
+
+.button:hover {
+	-fx-background-color: -fx-btn-hover-color;
+}
+
+.table-view .column-header-background,
+.table-view .column-header-background .filler,
+.table-view .corner {
+	-fx-background-color: black;
+}
+	
+.table-view .column-header {
+	-fx-background-color: black;
+	-fx-border-color: black;
+}
+
+.table-view .column-header .label{
+	-fx-font-weight: bold; 
+	-fx-alignment: center-left;
+}
+
+.date-picker-popup  {
+	-fx-border-color: transparent;
+}
+
+.date-picker-popup .month-year-pane {
+	-fx-background-color: -fx-primary-color;
+}
+
+.date-picker-popup .month-year-pane .label {
+	-fx-text-fill: white;
+}
+
+.date-picker-popup .week-number-cell {
+	-fx-text-fill: -fx-secondary-color;
+}
+
+.date-picker-popup .spinner .button .left-arrow,
+.date-picker-popup .spinner .button .right-arrow {
+	-fx-background-color: white;
+}
+
+.choice-box {
+  -fx-background-color: black;
+  -fx-mark-color: orange;
+}
+
+.choice-box > .label { 
+	-fx-text-fill: white;
+}
+.choice-box .context-menu {
+	-fx-background-color: black;
+}
+.choice-box .menu-item:focused { 
+	-fx-background-color: orange;
+}
+.choice-box .menu-item > .label {
+	-fx-text-fill: black;
+}
+.choice-box .menu-item:focused > .label { 
+	-fx-text-fill: black;
+}
