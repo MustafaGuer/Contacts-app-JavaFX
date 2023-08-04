@@ -6,9 +6,6 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Optional;
 import java.util.ResourceBundle;
-
-import javax.security.auth.callback.ConfirmationCallback;
-
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.stage.Stage;
